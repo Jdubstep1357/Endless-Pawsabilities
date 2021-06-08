@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.Orange {
+	background-image: url("../img/StoriesPic/Dog2.jpeg");
+	height: 200px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 3px solid #6f8e3b;
+}
+
+p {
+	text-indent: 40px;
+}
+
+
+
+.Purple {
+	background-image: url("../img/Dog2.jpg");
+	height: 300px;
+	background-size: contain;
+	background-size: cover;
+	border: 3px solid #6f8e3b;
+}
+
+
+/* IDEAL for background */
+.Orange2 {
+	background-image: url("../img/StoriesPic/CatLarge2.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px;
+	overflow: hidden;
+	border: 3px solid #6f8e3b;
+}
+
+.Purple2 {
+		background-image: url("../img/Cat3.jpg");
+	height: 300px;
+	background-size: cover;
+	border: 3px solid #6f8e3b;
+}
+
+
+.Orange3 {
+	background-image: url("../img/StoriesPic/NewBird.jpeg");
+	background-size: cover;
+	object-repeat: no-repeat;
+	height: 200px;
+	border: 3px solid #6f8e3b; 
+}
+
+.Purple3 {
+		background-image: url("../img/Bird3.jpg");
+	height: 300px;
+	background-size: cover;
+	border: 3px solid #6f8e3b; 
+}
+
+
+.Background1 {
+	background-image: url("../img/StoriesPic/DogLarge2.jpg");
+	background-size: contain;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 270px;
+	
+}
+
+.Background2 {
+	background-image: url("../img/Cat1.jpg");
+	background-size: contain;
+	background-size: cover;
+	height: 250px;
+}
+
+.Background3 {
+	background-image: url("../img/Bird1.jpg");
+	background-size: contain;
+	background-size: cover;
+	height: 300px;
+}
+
+
+
+.Green {
+	background-color: #6f8e3b;
+	color: #332c14;
+}
+
+.HeaderText {
+	font-family: 'Handlee', cursive;
+	font-size: 95px;
+	color: #332c14;
+}
+
+.DescriptionText {
+	font-family: 'Cabin', sans-serif;
+	font-size: 35px;
+	color: #332c14;
+}
+
+.ParaText {
+	font-family: 'Cabin', sans-serif;
+	font-size: 17px;
+	line-height: 40px;
+	color: #332c14;
+}
+
+#Header {
+	font-family: 'Handlee', cursive;
+	font-size: 70px;
+	color: #332c14;
+}

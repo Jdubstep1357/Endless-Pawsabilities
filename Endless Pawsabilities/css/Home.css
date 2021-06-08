@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.Border {
+	border: 3px solid #6f8e3b;
+}
+
+.BackgroundImg {
+background-image: url("../img/Parralax2.jpg");
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 300px;
+}
+
+#BackText {
+color: white;
+font-size: 20px;
+background-color: black;
+border-radius: 5px;
+margin: 25px;
+padding: 15px;
+opacity: 0.9;
+margin-bottom: 50px;
+width: 50%;
+text-align: center;
+}
+
+#Mission {
+	color: #6f8e3b;
+	font-family: 'Handlee', cursive;
+	font-size: 70px;	
+}
+
+.Para {
+		font-family: 'Cabin', sans-serif;
+	font-size: 15px;
+	line-height: 34px;
+	text-align: center;
+	color: #332c14;
+	text-indent: 40px;
+}

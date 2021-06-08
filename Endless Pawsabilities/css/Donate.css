@@ -1,0 +1,229 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.DonateH {
+}
+
+.carousel-control-prev-icon {
+	color: red;
+	background-color: red;
+}
+
+.Left {
+	background-color: #6f8e3b;
+}
+
+
+
+.Header {
+		font-family: 'Handlee', cursive;
+	text-align: center;
+	font-size: 75px;
+	color: #332c14;
+}
+
+.NewPic {
+}
+
+
+
+.FormBar {
+	width: 50%;
+}
+
+.HeadText {
+	background-color: #6f8e3b;
+	font-family: 'Handlee', cursive;
+	color: #332c14;
+
+}
+
+.Address {
+	font-family: 'Cabin', sans-serif;
+	color: #332c14;
+}
+
+.Info {
+		font-family: 'Cabin', sans-serif;
+		color: #332c14;
+}
+
+#Button1 {
+		background-color: #6f8e3b;
+		font-family: 'Cabin', sans-serif;
+		border: 2px solid #6f8e3b;
+}
+
+#Button1:hover {
+	background-color: white;
+	border: 1px solid #6f8e3b;
+	color: #6f8e3b;
+}
+
+
+#Button2 {
+		background-color: #6f8e3b;
+		font-family: 'Cabin', sans-serif;
+}
+
+#Button2:hover {
+	background-color: white;
+	border: 1px solid #6f8e3b;
+	color: #6f8e3b;
+}
+
+
+
+#Button3 {
+		background-color: #6f8e3b;
+		font-family: 'Cabin', sans-serif;
+}
+
+#Button3:hover {
+	background-color: white;
+	border: 1px solid #6f8e3b;
+	color: #6f8e3b;
+}
+
+
+#Button5 {
+		background-color: #6f8e3b;
+		font-family: 'Cabin', sans-serif;
+}
+
+#Button5:hover {
+	background-color: white;
+	border: 1px solid #6f8e3b;
+	color: #6f8e3b;
+}
+
+
+#Button4 {
+		background-color: #6f8e3b;
+		font-family: 'Cabin', sans-serif;
+		width: 14%;
+		height: 50px;
+		font-size: 25px;
+		border: 1px solid #332c14;
+		border-radius: 6px;
+}
+
+#Button4:hover {
+	background-color: white;
+	color: #6f8e3b;
+	border: 1px solid #6f8e3b;
+}
+
+#Button4:onclick {
+	background-color: aliceblue;
+}
+
+
+#FormBar {
+	text-align: center;
+	border: 3px solid #6f8e3b;
+}
+
+#FormBar2 {
+	text-align: center;
+		border: 3px solid #6f8e3b;
+
+}
+
+#FormBar3 {
+	text-align: center;
+	border: 3px solid #6f8e3b;
+
+}
+
+#FormBar5 {
+	text-align: center;
+}
+
+
+#FormBar4 {
+	text-align: center;
+}
+
+.TopText {
+	font-family: 'Cabin', sans-serif;
+	font-size: 25px;
+	color: #332c14;
+}
+
+
+
+.BottomDiv {
+	border: 3px solid #6f8e3b !important;
+}
+
+.BottomDivDropDown {
+	background-color: #6f8e3b !important;
+	color: white !important;
+}
+
+.BottomDivDropDown:hover {
+	background-color: white !important;
+	color: black !important;
+	border: 2px solid #6f8e3b !important;
+	border-left: 1px solid #6f8e3b !important;
+	color: #332c14;
+}
+
+#BottomDiv {
+	border: 3px solid #6f8e3b;
+
+}
+
+
+.DonateCard {
+	border: 3px solid #6f8e3b !important;
+}
+
+@media screen and (max-width: 576px) {
+	
+		#Button4 {
+		background-color: #6f8e3b;
+		font-family: 'Cabin', sans-serif;
+		width: 28%;
+		height: 50px;
+		font-size: 25px;
+		border: 1px solid black;
+		border-radius: 6px;
+}
+	
+}
+
+@media screen and (min-width: 576px) {
+	#Header {
+		font-size: 20px;
+	}
+	
+	#Button4 {
+		background-color: #6f8e3b;
+		font-family: 'Cabin', sans-serif;
+		width: 20%;
+		height: 50px;
+		font-size: 25px;
+		border: 1px solid black;
+		border-radius: 6px;
+}
+}
+
+@media screen and (min-width: 768px) {
+	#Button4 {
+		font-size: 25px;
+		width: 15%;
+		text-align: center;
+	}
+}
+
+	@media screen and (min-width: 992px) {
+			#Button4 {
+		font-size: 25px;
+		width: 10%;
+		text-align: center;
+	}
+	}
+	

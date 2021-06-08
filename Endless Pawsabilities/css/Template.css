@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.navbar-toggler {
+	background-color: white;
+	padding: 15px;
+	
+}
+
+
+
+
+
+
+.BackgroundTop {
+	background-color: #418da2;
+}
+.UpperFontColor {
+
+	font-family: 'Cabin', sans-serif;
+	font-size: 20px;
+}
+
+.TextColor {
+	color: white;
+font-family: 'Handlee', cursive;
+	font-size: 18px;
+}
+
+/* PROGRESS BAR */
+.progress {
+	height: 45px;
+	background-color: white;
+	border: 2px solid white;
+	margin-top: 30px;
+	font-size: 15px;
+}
+
+.progress-bar {
+	background-color: #6f8e3b;
+}
+
+.Picture {
+	height: 50px;
+	background-color: white;
+}
+/* Adding CSS to <li> class changes styling of text only with styles.
+It appears that bootstrap reads bootstrap classes first then if there's an id it overwrites the color/CSS of bootstrap
+DOES NOT APPEAR TO WORK IN CLASS FOR COLOR of text
+1. Boostrap CSS
+2. id in <a> tag
+*/
+#HomeDropDown {
+	color: white;
+	font-size: 23px;
+}
+
+#PetsDropDown {
+	color: white;
+	font-size: 23px;
+}
+
+#StoriesDropDown {
+	color: white;
+	font-size: 23px;
+}
+
+#Donate {
+	color: white;
+	border: 2px solid white;
+	padding: 20px;
+	font-family: 'Cabin', sans-serif;
+	font-size: 30px;
+}
+
+#Donate:hover {
+	background-color: #6f8e3b;
+	color: white;
+	border: 2px solid white;
+	padding: 20px;
+	font-family: 'Cabin', sans-serif;
+	font-size: 30px;
+}
+
+.SocialIcon {
+	color: white;
+}
+
+.PopOver:hover {
+	background-color: #6f8e3b;
+}
+
+#Right {
+	padding-right: 20px;
+}
+
+@media screen and (max-width: 990px) {
+	#Donate {
+		color: white;
+		border: 2px solid white;
+		padding: 15px;
+		font-family: 'Cabin', sans-serif;
+		font-size: 20px;
+	}
+	
+		#Donate:hover {
+			background-color: #6f8e3b;
+			color: white;
+			border: 2px solid white;
+			padding: 15px;
+			font-family: 'Cabin', sans-serif;
+			font-size: 20px;
+	}
+}
